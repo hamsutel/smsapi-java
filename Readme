@@ -1,0 +1,9 @@
+**Sample API Using Java**
+
+`__MessageApi messageApi = new MessageApi("username","password");
+Message message = new Message();
+message.setSenderId("Hamsutel");
+message.setTo("0244111111");
+message.setToken("r6mi9okuqsgg00s80gww9704b54a5f");
+message.setContent("Welcome Home");
+messageApi.send(message);__`
